@@ -1,0 +1,23 @@
+.animated{
+	opacity:1 !important;
+}
+
+
+
+
+.store-list li:before, .store-list li:after {
+ display: none;
+}
+
+
+.store-list li:hover:before, .store-list li:hover:after, .store-list li:focus:before, .store-list li:focus:after {
+   display: block;
+}
+
+.store-list li:hover a:before, .store-list li:hover a:after, .store-list li:focus a:before, .store-list li:focus a:after {
+  display: block;
+}
+
+.store-list li a:before, .store-list li a:after {
+  display: none;
+}
